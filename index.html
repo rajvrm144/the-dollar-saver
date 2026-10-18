@@ -176,7 +176,13 @@
 <footer>
   <p><strong>Affiliate &amp; referral disclosure:</strong> links on this page are referral links. If you sign up through them, I may receive a bonus or commission at no extra cost to you. Bonus amounts change — confirm the live offer before applying.</p>
   <p>This page is for general information only, not financial advice. Card approval is at each issuer's discretion.</p>
-  <p><img src="https://api.visitorbadge.io/api/visitors?path=rajvrm144.github.io%2Fthe-deal-guy" alt="visitor count" style="margin-top:.5rem;"></p>
+  <p style="margin-top:.5rem;color:var(--muted);font-size:.8rem;"><span id="vc"></span></p>
+  <script>
+  fetch('https://abacus.jasoncameron.dev/hit/the-deal-guy/pageviews')
+    .then(function(r){return r.json();})
+    .then(function(d){document.getElementById('vc').textContent=Number(d.value).toLocaleString();})
+    .catch(function(){});
+  </script>
   <p>Last updated: <span id="d"></span></p>
 </footer>
 <script>document.getElementById('d').textContent = new Date().toISOString().slice(0,10);</script>
