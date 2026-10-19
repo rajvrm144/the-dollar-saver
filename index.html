@@ -65,18 +65,18 @@
   <div class="card">
     <h3>Rakuten <span class="tag">referral</span></h3>
     <p>Click through Rakuten before shopping online and earn cashback on top of your card rewards. Join through my link, shop <strong>$50 within 90 days</strong>, and we each get <strong>$50</strong> — on top of regular cash back at 3,500+ stores.</p>
-    <a class="btn" href="go/rakuten.html">Join Rakuten</a>
+    <a class="btn" data-track="rakuten" href="go/rakuten.html">Join Rakuten</a>
     <p style="margin-top:.6rem;">Tip: Rakuten sometimes pays extra cashback on <em>credit card applications</em> too — check the portal before your next application.</p>
   </div>
   <div class="card">
     <h3>BeFrugal <span class="tag">referral</span></h3>
     <p>Another cashback portal — sometimes beats Rakuten's rates, so check both before you buy. Join through my link, earn <strong>$10 cashback within 365 days</strong>, and we each get a <strong>$10 bonus</strong>. Referrals are uncapped.</p>
-    <a class="btn" href="go/befrugal.html">Join BeFrugal</a>
+    <a class="btn" data-track="befrugal" href="go/befrugal.html">Join BeFrugal</a>
   </div>
   <div class="card">
     <h3>TopCashback <span class="tag">compare rates</span></h3>
     <p>No referral needed — just compare its rates against Rakuten before big purchases and take whichever pays more.</p>
-    <a class="btn" href="https://www.topcashback.com">Compare rates</a>
+    <a class="btn" data-track="topcashback" href="https://www.topcashback.com">Compare rates</a>
   </div>
 </section>
 
@@ -102,32 +102,32 @@
   <div class="card">
     <h3>Chase Freedom Flex <span class="tag">referral</span></h3>
     <p><strong>$250 bonus</strong> after spending $500 in your first 3 months — verified on the referral link today. 5% on rotating quarterly categories (up to $1,500/qtr), 5% on Chase Travel, 3% dining &amp; drugstores, 1% everything else. No annual fee. Both links below are for the Freedom Flex (generated from different cards).</p>
-    <a class="btn" href="go/chase-1.html">Apply — referral link 1</a>
-    <a class="btn" href="go/chase-2.html">Apply — referral link 2</a>
+    <a class="btn" data-track="chase-flex-1" href="go/chase-1.html">Apply — referral link 1</a>
+    <a class="btn" data-track="chase-flex-2" href="go/chase-2.html">Apply — referral link 2</a>
   </div>
 
   <div class="card">
     <h3>Discover card (via Capital One) <span class="tag">referral</span></h3>
     <p>We each get a <strong>$100 statement credit</strong> — you get yours after making a payment with the card in the first 3 months. All rewards earned in your first year are matched with no limit, 0% intro APR for 15 months, no annual fee. Discover is now part of Capital One — this is my referral link for it.</p>
-    <a class="btn" href="go/capitalone.html">Apply with referral</a>
+    <a class="btn" data-track="discover-capitalone" href="go/capitalone.html">Apply with referral</a>
   </div>
 
   <div class="card">
     <h3>Bank of America Customized Cash Rewards <span class="tag">referral</span></h3>
     <p><strong>$200 bonus</strong> after spending $1,000 in the first 90 days. <strong>6% cash back</strong> in a category you choose for the first year (3% after), 2% at grocery &amp; wholesale clubs, 1% everything else. No annual fee.</p>
-    <a class="btn" href="go/bofa-cash.html">Apply with referral</a>
+    <a class="btn" data-track="bofa-cash" href="go/bofa-cash.html">Apply with referral</a>
   </div>
 
   <div class="card">
     <h3>Bank of America Travel Rewards <span class="tag">referral</span></h3>
     <p><strong>25,000 bonus points ($250 toward travel)</strong> after spending $1,000 in the first 90 days. 1.5x points on every purchase, 3x on BofA Travel bookings, no foreign transaction fee, no annual fee.</p>
-    <a class="btn" href="go/bofa-travel.html">Apply with referral</a>
+    <a class="btn" data-track="bofa-travel" href="go/bofa-travel.html">Apply with referral</a>
   </div>
 
   <div class="card">
     <h3>Bilt Mastercard <span class="tag">referral</span></h3>
     <p>Pay rent through Bilt and earn Bilt Points on every rent payment with no transaction fee — and your rent payments help <strong>build your credit history</strong>. Three cards: <strong>Blue</strong> ($0 fee, $100 welcome bonus), <strong>Obsidian</strong> ($95 fee, $200 bonus), <strong>Palladium</strong> ($495 fee, $300 bonus + 50,000 points + Gold Status). Points transfer 1:1 to 28 travel partners.</p>
-    <a class="btn" href="go/bilt.html">Apply with referral</a>
+    <a class="btn" data-track="bilt" href="go/bilt.html">Apply with referral</a>
   </div>
 
   <div class="note">👉 Note: Citi and Wells Fargo have no card referral programs, so they're not listed. Amex referrals are intentionally excluded — their terms discourage public posting.</div>
@@ -155,12 +155,12 @@
   <div class="card">
     <h3>Robinhood <span class="tag">referral</span></h3>
     <p>Claim <strong>free stock worth $5–$200</strong> when you link your bank — guaranteed at least $5, and you pick from 26 top companies like NVIDIA and Apple. Tiered referrer milestones up to $15,000 in reward stock per year.</p>
-    <a class="btn" href="go/robinhood.html">Claim free stock</a>
+    <a class="btn" data-track="robinhood" href="go/robinhood.html">Claim free stock</a>
   </div>
   <div class="card">
     <h3>Webull <span class="tag">referral</span></h3>
     <p>Get <strong>10 free fractional shares</strong> with a $100+ first deposit — plus a month of Webull Premium and a 5% APY booster on cash for 30 days.</p>
-    <a class="btn" href="go/webull.html">Get free shares</a>
+    <a class="btn" data-track="webull" href="go/webull.html">Get free shares</a>
   </div>
 </section>
 
@@ -191,5 +191,16 @@
   <p>Last updated: <span id="d"></span></p>
 </footer>
 <script>document.getElementById('d').textContent = new Date().toISOString().slice(0,10);</script>
+<script>
+// Referral click tracking: fires a GA4 event naming which button was clicked.
+document.addEventListener('click', function(e) {
+  var a = e.target.closest('a[data-track]');
+  if (!a || typeof gtag !== 'function') return;
+  gtag('event', 'referral_click', {
+    'link_id': a.getAttribute('data-track'),
+    'link_url': a.getAttribute('href')
+  });
+});
+</script>
 </body>
 </html>
